@@ -4,6 +4,8 @@
 
 @import url(styles/header.css);
 @import url(styles/banner.css);
+@import url(styles/projetos.css);
+
 
 * {
     margin: 0;
@@ -12,7 +14,7 @@
 }
 
 :root {
-    --cor-destaque: #d88b58;
+    --cor-destaque: #a958d8;
 }
 
 html {
