@@ -12,7 +12,7 @@ header {
 
 .header-conteudo {
     display: flex;
-    gap: 80px;
+    gap: 30px;
 }
 
 nav {
@@ -23,19 +23,20 @@ nav {
 }
 
 nav a {
-    font-weight: 100;
+    font-weight: 300;
     font-size: .9em;
     letter-spacing: 3px;
     transition: .5s;
 }
 
 nav a:hover {
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    color: #d88b58;
 }
 
 
 .logo {
-    width: 5em;
+    width: 30px;
 }
 
 .redes-sociais {
@@ -43,16 +44,18 @@ nav a:hover {
     gap: 30px;
 }
 
-.redes-sociais svg {
-    width: 20px;
-    height: 20px;
-    opacity: 0.6;
+.redes-sociais a img {
+    width: 25px;
+    height: 25px;
+    opacity: 0.8;
     transition: .5s;
 }
 
-.redes-sociais svg:hover {
+.redes-sociais a img:hover {
     opacity: 1;
-    transform: translateY(-10px);
+    color: #d88b58;
+    transform: translateY(-5px);
+    filter: drop-shadow(10px 10px 20px rgba(32, 10, 10, 0.801));
 }
 
 
@@ -65,6 +68,8 @@ nav a:hover {
     nav a {
         letter-spacing: 1px;
     }
+
+    
 
 }
 
